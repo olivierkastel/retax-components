@@ -1,11 +1,6 @@
-.DS_Store
-.idea
+build
 node_modules
 ncp-debug.log
 npm-debug.log
 coverage
-es
-lib
-libts
-.awcache
-typings
+.DS_Store
