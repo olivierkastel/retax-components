@@ -94,7 +94,9 @@ abstract class AbstractApi implements IApi {
     const token = this._reduxFacade.getAuthToken();
 
     const isJson = typeof body === 'object' && !(body instanceof FormData);
+    console.log(`-------isJson: ${isJson}`);
     const bodyToSend = isJson ? JSON.stringify(body) : body;
+    console.log(`-------bodyToSend: ${bodyToSend}`);
     const jsonHeader: IHeader = isJson ? {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
@@ -133,4 +135,3 @@ abstract class AbstractApi implements IApi {
 }
 
 export default AbstractApi;
-
