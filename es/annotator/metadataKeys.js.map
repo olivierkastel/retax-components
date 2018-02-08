@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/annotator/metadataKeys.ts"],"names":["RETAX_ACTIONS","METADATA_KEYS"],"mappings":"AAAA,IAAMA,gBAAgB,eAAtB;AAEA,OAAO,IAAMC,gBAAgB,EAAED,4BAAF,EAAtB","file":"metadataKeys.js","sourcesContent":["const RETAX_ACTIONS = 'retax:actions';\n\nexport const METADATA_KEYS = { RETAX_ACTIONS };\n"]}

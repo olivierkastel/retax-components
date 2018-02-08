@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/annotator/index.ts"],"names":["default","Annotator"],"mappings":"AAAA,SAASA,WAAWC,SAApB,QAAqC,aAArC;AAEA,cAAc,cAAd;AACA,cAAc,gBAAd","file":"index.js","sourcesContent":["export { default as Annotator } from './Annotator';\n\nexport * from './interfaces';\nexport * from './metadataKeys';\n"]}

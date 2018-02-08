@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/inversify/modules/index.ts"],"names":["default"],"mappings":";;;;;;;;;;;+CAKSA,O","file":"index.js","sourcesContent":["/**\n * These are useful DI module that works great with retax.\n * You DON'T HAVE to use them. You could just create your own modules in your project.\n */\n\nexport { default as componentsModule } from './components';\n"]}
